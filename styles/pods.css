@@ -8,7 +8,7 @@
 .Pod_Row div {}
 
 .Instructions {
-  width: 900px;
+  /*width: 900px;*/
 }
 
 .Instructions div {}
@@ -33,16 +33,15 @@
 }
 
 .Pod  {
-  width: 220px;
-  height: 220px;
-  margin-right: 30px;
   flex-shrink: 0;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .Pod img  {
-  width: 220px;
-  height: 220px;
+  /*width: 220px;
+  height: 220px;*/
+  width: 100%;
 }
 
 .Pod #brightness {
@@ -74,11 +73,11 @@ filter: blur(2px);
 
 .Pod p {
   z-index: 100;
-  position: absolute;
+  /*position: absolute;*/
   color: black;
   font-size: 14px;
-  left: 15px;
-  top: 150px;
+  /*left: 15px;
+  top: 150px;*/
 }
 
 td { 
